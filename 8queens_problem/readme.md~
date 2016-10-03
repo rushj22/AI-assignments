@@ -1,0 +1,8 @@
+We set up a square field with 64 equal sized cells. We wish to place 8 agents on the field. Each agent can shoot in 8 directions, namely 0, 45, 90, 135,......degrees etc..  Each agent just about fits in a cell. All agents are to be placed such that they point towards North direction.. Starting with randomly placed agents, we used variants of hill climbing technique (Simple Hill Climbing and Steepest Ascent Hill Climbing) to arrive at the solution where all the agents are so placed in their respective cells that  no agent is able to hit another agent.
+
+We employed random restarts in case solution process got stuck. We measured the search cost and number of solved problems with and without random restart. The problem was extended to N agents, and we reported how large N can be chosen in order to solve the problem in reasonable time. 
+In the report attached, the number of nodes opened versues field size was plotted. We compared simple hill climbing with steepest ascent hill climbing. Results are reported for each variant that was employed. The algorithms used are also explained briefly in the report.
+
+#How to run the file:
+Run python 8queens.py
+an 8X8 matrix is displayed where 1 represent the queens indicating the solved positions and 0 represent other cells on the board.
